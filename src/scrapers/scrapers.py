@@ -80,8 +80,7 @@ def save_author_file(author_name, output_dir='output'):
 
 
 def write_author_files(authors, output_dir):
-    import sys
-    with Pool(sys.ma) as pool:
+    with Pool() as pool:
         pool.starmap(save_author_file, [(author_name, output_dir) for author_name in authors])
 
 
