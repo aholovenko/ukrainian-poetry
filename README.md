@@ -1,3 +1,5 @@
 # ukrainian-poetry
 
-Repository contains scraper and dataset with Ukrainian poetry.
+Repository contains a scraper and a dataset of Ukrainian poetry.
+
+Poems were scraped for research purposes only.
